@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Products | Taskspace Momentum.ai</title>
-  <meta name="description" content="Where your project gains momentum. Physical AI and Robotics-as-a-Service product lines in development at Taskspace Momentum.ai: RaaS cell deployments, HIL test rigs, lab automation kits, custom fixtures, and a computer-vision perception module." />
+  <meta name="description" content="Where your project gains momentum. Physical AI and Robotics-as-a-Service product lines from Taskspace Momentum.ai: an AI-enabled robot integration hub, Bring Your Own Robot integration, RaaS cell deployments, HIL test rigs, lab automation kits, custom fixtures, and a computer-vision perception module." />
   <meta property="og:title" content="Products | Taskspace Momentum.ai" />
-  <meta property="og:description" content="Where your project gains momentum. Physical AI and Robotics-as-a-Service product lines in development at Taskspace Momentum.ai: RaaS cell deployments, HIL test rigs, lab automation kits, custom fixtures, and a computer-vision perception module." />
+  <meta property="og:description" content="Where your project gains momentum. Physical AI and Robotics-as-a-Service product lines from Taskspace Momentum.ai: an AI-enabled robot integration hub, Bring Your Own Robot integration, RaaS cell deployments, HIL test rigs, lab automation kits, custom fixtures, and a computer-vision perception module." />
   <meta property="og:image" content="assets/logo-icon.png" />
   <link rel="icon" href="assets/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
@@ -27,48 +27,83 @@
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="products.html" aria-current="page">Products</a>
-      <a href="index.html#vv">V&amp;V</a>
-      <a href="index.html#safety">Safety-critical</a>
+      <a href="index.html#vv">Safety-Critical V&amp;V</a>
       <a href="index.html#about">About</a>
       <a href="index.html#contact" class="nav-cta">Contact</a>
     </nav>
   </header>
 
   <div class="page-hero grid-bg">
-    <span class="section-tag">Products &middot; In development</span>
-    <h1>Physical AI and RaaS product lines, <span class="gradient-text">in development.</span></h1>
-    <p class="sub">We're turning repeatable engineering work into products. Everything on this page is in development; scope and availability are not final. Tell us about your application and we'll discuss fit and early access.</p>
+    <span class="section-tag">Products</span>
+    <h1>Products that put robots to work <span class="gradient-text">faster.</span></h1>
+    <p class="sub">Physical AI and Robotics-as-a-Service product lines built from our engineering practice: integration, perception, fixtures, and verification. Tell us about your application and we'll discuss fit.</p>
     <div class="cta-row">
       <a class="cta cta-primary" href="index.html#contact">Contact us</a>
-      <a class="cta cta-secondary" href="#accelerator">Start with the accelerator</a>
+      <a class="cta cta-secondary" href="#byor">Bring your own robot</a>
     </div>
   </div>
 
   <section id="product-lines">
     <span class="section-tag">Product lines</span>
-    <h2>What we're building</h2>
-    <p class="lead">Each line grows out of our services: Physical AI, computer vision, robotics integration, and V&amp;V. Specifications and pricing will be published only once they're validated.</p>
-    <div class="grid-3">
-      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h10"/><path d="M8 21v-3"/><circle cx="8" cy="15.5" r="2.5"/><path d="M9.8 13.7 14 8.5"/><circle cx="15.5" cy="7" r="2"/><path d="M17.5 7H21v3.5"/><path d="M21 10.5h-2"/></svg></div><span class="status">In development</span><h3>RaaS cell deployments</h3><p>Robotic cells built on commercial off-the-shelf hardware, delivered and supported as a service: installation, monitoring, maintenance, and controlled updates.</p>
-        <p class="product-for">Intended for</p><ul><li>Instrument and machine tending</li><li>Part, sample, and labware handling</li><li>Repetitive tasks in constrained or hazardous spaces</li></ul>
+    <h2>What we offer</h2>
+    <p class="lead">Each line grows out of our services: Physical AI, computer vision, robotics integration, and safety-critical V&amp;V. Scope is set per application.</p>
+    <article class="card product-featured" id="integration-hub">
+      <div class="pf-main">
+        <span class="pf-badge">Featured product</span>
+        <div class="pf-title"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="5" r="2"/><circle cx="20" cy="5" r="2"/><circle cx="4" cy="19" r="2"/><circle cx="20" cy="19" r="2"/><path d="M5.6 6.4 9.8 10M18.4 6.4 14.2 10M5.6 17.6l4.2-3.6M18.4 17.6l-4.2-3.6"/></svg></div><h3>AI-enabled robot integration hub</h3></div>
+        <p class="pf-lead">An AI-enabled hub for integrating off-the-shelf robots into your application. It brings arms, grippers, cameras, and sensors onto one integration layer, and uses sensor fusion to drive AI-in-the-loop automated training, so behaviors are trained and checked against real sensor data instead of hand-tuned for every new robot.</p>
+        <div class="cta-row">
+          <a class="cta cta-primary" href="index.html#contact">Talk to us about the hub</a>
+          <a class="cta cta-secondary" href="#byor">Bring your own robot</a>
+        </div>
+      </div>
+      <ul class="pf-points">
+        <li><strong>Off-the-shelf robot integration</strong>Arms, grippers, and controllers from different vendors, connected through one hub.</li>
+        <li><strong>Sensor fusion</strong>Cameras, depth, force/torque, and robot state combined into one consistent view of the task space.</li>
+        <li><strong>AI-in-the-loop automated training</strong>Fused, real-world data feeds training and retraining of Physical AI behaviors.</li>
+        <li><strong>Verification hooks</strong>HIL, SIL, and MIL test points so every change is verified before it reaches the cell.</li>
+      </ul>
+    </article>
+    <div class="grid-3" style="margin-top:1.15rem">
+      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h10"/><path d="M8 21v-3"/><circle cx="8" cy="15.5" r="2.5"/><path d="M9.8 13.7 14 8.5"/><circle cx="15.5" cy="7" r="2"/><path d="M17.5 7H21v3.5"/><path d="M21 10.5h-2"/></svg></div><h3>RaaS cell deployments</h3><p>Robotic cells built on commercial off-the-shelf hardware, delivered and supported as a service: installation, monitoring, maintenance, and controlled updates.</p>
+        <p class="product-for">Built for</p><ul><li>Instrument and machine tending</li><li>Part, sample, and labware handling</li><li>Repetitive tasks in constrained or hazardous spaces</li></ul>
         <div class="product-cta"><a class="text-link" href="index.html#contact">Contact us about this &rarr;</a></div></div>
-      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div><span class="status">In development</span><h3>Physical AI HIL test rig</h3><p>A configurable hardware-in-the-loop bench for exercising perception, planning, and control against real sensors and actuators, with automated regression.</p>
-        <p class="product-for">Intended for</p><ul><li>Teams validating Physical AI software</li><li>Integration and timing tests before field trials</li><li>Regression as models and code change</li></ul>
+      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div><h3>Physical AI HIL test rig</h3><p>A configurable hardware-in-the-loop bench for exercising perception, planning, and control against real sensors and actuators, with automated regression.</p>
+        <p class="product-for">Built for</p><ul><li>Teams validating Physical AI software</li><li>Integration and timing tests before field trials</li><li>Regression as models and code change</li></ul>
         <div class="product-cta"><a class="text-link" href="index.html#contact">Contact us about this &rarr;</a></div></div>
-      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6L4.6 18.6A1.6 1.6 0 0 0 6 21h12a1.6 1.6 0 0 0 1.4-2.4L14 9V3"/><path d="M7.5 15h9"/></svg></div><span class="status">In development</span><h3>Lab automation kits</h3><p>Building blocks for automated test cells: instrument tending, part and sample handling, and structured data capture for repeatable experiments.</p>
-        <p class="product-for">Intended for</p><ul><li>R&amp;D and test labs</li><li>Repeatable experiment workflows</li><li>Automated data capture and logging</li></ul>
+      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6L4.6 18.6A1.6 1.6 0 0 0 6 21h12a1.6 1.6 0 0 0 1.4-2.4L14 9V3"/><path d="M7.5 15h9"/></svg></div><h3>Lab automation kits</h3><p>Building blocks for automated test cells: instrument tending, part and sample handling, and structured data capture for repeatable experiments.</p>
+        <p class="product-for">Built for</p><ul><li>R&amp;D and test labs</li><li>Repeatable experiment workflows</li><li>Automated data capture and logging</li></ul>
         <div class="product-cta"><a class="text-link" href="index.html#contact">Contact us about this &rarr;</a></div></div>
-      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V10h4v11"/><path d="M15 21v-5h4v5"/><path d="M5 10V6h14v4h-4"/><path d="M12 6V3"/></svg></div><span class="status">In development</span><h3>Custom fixture program</h3><p>Modular fixture, mount, and interface designs for DUTs, robot cells, and camera setups, adapted to your parts and processes.</p>
-        <p class="product-for">Intended for</p><ul><li>Device-under-test fixturing</li><li>Camera, lighting, and calibration mounts</li><li>Cell tooling and end-of-arm interfaces</li></ul>
+      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V10h4v11"/><path d="M15 21v-5h4v5"/><path d="M5 10V6h14v4h-4"/><path d="M12 6V3"/></svg></div><h3>Custom fixture program</h3><p>Modular fixture, mount, and interface designs for DUTs, robot cells, and camera setups, adapted to your parts and processes.</p>
+        <p class="product-for">Built for</p><ul><li>Device-under-test fixturing</li><li>Camera, lighting, and calibration mounts</li><li>Cell tooling and end-of-arm interfaces</li></ul>
         <div class="product-cta"><a class="text-link" href="index.html#contact">Contact us about this &rarr;</a></div></div>
-      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div><span class="status">In development</span><h3>CV perception module</h3><p>A computer-vision software module for inspection, localization, and tracking, designed to drop into robot cells and test rigs.</p>
-        <p class="product-for">Intended for</p><ul><li>Visual inspection and verification</li><li>Part and object localization for picking</li><li>Tracking and event detection</li></ul>
+      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div><h3>CV perception module</h3><p>A computer-vision software module for inspection, localization, and tracking, designed to drop into robot cells and test rigs.</p>
+        <p class="product-for">Built for</p><ul><li>Visual inspection and verification</li><li>Part and object localization for picking</li><li>Tracking and event detection</li></ul>
         <div class="product-cta"><a class="text-link" href="index.html#contact">Contact us about this &rarr;</a></div></div>
-      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M6 12h2l2-4 3 7 2-3h3"/><path d="M8 21h8M12 17v4"/></svg></div><span class="status">In development</span><h3>Verification &amp; traceability toolkit</h3><p>Templates and tooling for test plans, requirement-to-test trace, and executed records, built from our V&amp;V and V-model practice.</p>
-        <p class="product-for">Intended for</p><ul><li>Teams standing up a V-model process</li><li>HIL and lab test campaigns</li><li>Evidence packs for internal review</li></ul>
+      <div class="card product"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M6 12h2l2-4 3 7 2-3h3"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Verification &amp; traceability toolkit</h3><p>Templates and tooling for test plans, requirement-to-test trace, and executed records, built from our safety-critical V&amp;V and V-model practice.</p>
+        <p class="product-for">Built for</p><ul><li>Teams standing up a V-model process</li><li>HIL, SIL, and MIL test campaigns</li><li>Evidence packs for internal review</li></ul>
         <div class="product-cta"><a class="text-link" href="index.html#contact">Contact us about this &rarr;</a></div></div>
     </div>
-    <p class="note">All products listed are in development. Descriptions show intended scope, not committed features, specifications, or delivery dates. Contact us to discuss your application.</p>
+  </section>
+
+  <section id="byor" class="byor-wrap">
+    <div class="byor">
+      <div class="byor-head">
+        <span class="byor-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h10"/><path d="M8 21v-3"/><circle cx="8" cy="15.5" r="2.5"/><path d="M9.8 13.7 14 8.5"/><circle cx="15.5" cy="7" r="2"/><path d="M17.5 7H21v3.5"/><path d="M21 10.5h-2"/></svg> Bring Your Own Robot &middot; BYOR</span>
+        <h2>Bring your own robot. We'll put it to work in your application, fast.</h2>
+        <p>Already own an arm, or have a preferred off-the-shelf model? Bring it to the accelerator. We integrate it into your application with our AI-enabled robot integration hub, CV / Physical AI, custom fixtures, and safety-critical V&amp;V. You keep the robot you trust and skip the from-scratch integration project.</p>
+      </div>
+      <ol class="byor-steps">
+        <li><strong>Your robot</strong>An existing or preferred COTS arm, gripper, and controller.</li>
+        <li><strong>Our hub</strong>AI-enabled integration with sensor fusion and AI-in-the-loop training.</li>
+        <li><strong>Perception &amp; fixtures</strong>CV / Physical AI plus custom fixtures for your parts and process.</li>
+        <li><strong>Verified</strong>HIL bench, test plan, and traceability before it goes live.</li>
+      </ol>
+      <div class="cta-row">
+        <a class="cta cta-light" href="index.html#contact">Bring your robot: start a conversation</a>
+        <a class="cta cta-ghost" href="#accelerator">How the accelerator works</a>
+      </div>
+    </div>
   </section>
 
   <section id="accelerator" class="accel-wrap">
@@ -78,12 +113,13 @@
       <p class="lead" style="margin-bottom:0">A structured fast track from use case to a working robotic cell. We specialize in rapid integration of commercial off-the-shelf (COTS) robotics for your application, combining proven arms, grippers, and cameras with Physical AI and computer vision, custom fixtures, and built-in verification &amp; validation. You see your task running on real hardware before you commit to scale.</p>
       <ol class="accel-steps">
         <li><strong>Use case</strong>Define the task, constraints, safety needs, and what success looks like.</li>
-        <li><strong>COTS selection</strong>Choose the arm, gripper, cameras, and controller for the task. Vendor-agnostic.</li>
+        <li><strong>COTS selection or BYOR</strong>Choose the arm, gripper, cameras, and controller for the task, or bring your own robot.</li>
         <li><strong>Integrate</strong>Physical AI / CV perception, motion, and custom fixtures for your parts or labware.</li>
         <li><strong>Verify</strong>HIL bench and test plan with traceability, so issues show up on the bench.</li>
         <li><strong>Decide &amp; scale</strong>Hand over the cell, the evidence, and a path forward: in-house, product, or RaaS.</li>
       </ol>
-      <p class="accel-more">Need something working before a product ships? The accelerator applies the same building blocks to your application with COTS robots today. See <a href="services.html">Services</a> for the full picture.</p>
+      
+      <p class="accel-more">Want results on your own application now? The accelerator applies the same building blocks with COTS robots, or the robot you already have. See <a href="services.html">Services</a> for the full picture.</p>
       <div class="cta-row">
         <a class="cta cta-primary" href="index.html#contact">Start an accelerator conversation</a>
         <a class="cta cta-secondary" href="services.html#engagement">How engagements work</a>
@@ -93,11 +129,11 @@
   </section>
 
   <div class="cta-band">
-    <h2>Interested in early access?</h2>
-    <p>Tell us what you're trying to automate, test, or verify. We'll tell you honestly whether a product in development fits, or whether a services engagement is the better path.</p>
+    <h2>Talk to us about a product</h2>
+    <p>Tell us what you're trying to automate, test, or verify. We'll tell you honestly whether a product fits, or whether a services engagement is the better path.</p>
     <div class="cta-row">
       <a class="cta cta-primary" href="index.html#contact">Start a conversation</a>
-      <a class="cta cta-secondary" href="mailto:PLACEHOLDER@taskspacemomentum.ai">Email [PLACEHOLDER@taskspacemomentum.ai]</a>
+      <a class="cta cta-secondary" href="mailto:info@taskspacemomentum.ai">Email info@taskspacemomentum.ai</a>
     </div>
   </div>
   <footer class="site-footer">
@@ -105,7 +141,8 @@
       <div>
         <a class="footer-brand" href="index.html"><img src="assets/logo-icon-64.png" width="36" height="36" alt="" /><span>Taskspace Momentum<span class="dot-ai">.ai</span></span></a>
         <p class="footer-tagline">Where your project gains momentum.</p>
-        <p style="margin:0">Engineering services and a robotics &amp; automation accelerator: Physical AI, computer vision, Robotics-as-a-Service, V&amp;V, and safety-critical systems engineering.</p>
+        <p style="margin:0">Engineering services and a robotics &amp; automation accelerator: Physical AI, computer vision, Robotics-as-a-Service, and safety-critical V&amp;V.</p>
+        <p style="margin:0.6rem 0 0"><a class="footer-email" href="mailto:info@taskspacemomentum.ai">info@taskspacemomentum.ai</a></p>
       </div>
       <div>
         <h4>Site</h4>
@@ -123,15 +160,15 @@
         <ul>
           <li><a href="services.html#offerings">Physical AI &amp; computer vision</a></li>
           <li><a href="services.html#offerings">Robotics-as-a-Service</a></li>
-          <li><a href="services.html#vv">Verification &amp; validation / HIL</a></li>
-          <li><a href="services.html#safety">Safety-critical V-model</a></li>
+          <li><a href="services.html#vv">Safety-Critical V&amp;V</a></li>
+          <li><a href="services.html#safety">V-model engineering</a></li>
           <li><a href="services.html#engagement">Engagement models</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-legal">
       <span>&copy; 2026 Taskspace Momentum LLC. All rights reserved.</span>
-      <span>Privacy policy and terms: in preparation.</span>
+      <!-- Placeholder: add links once drafted. <span>Privacy policy · Terms</span> -->
     </div>
   </footer>
 </body>
