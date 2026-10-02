@@ -1,517 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TaskSpace Momentum LLC — systems engineering consulting. [PLACEHOLDER: one-line description of your services and focus areas].">
-    <meta name="keywords" content="systems engineering, MBSE, requirements management, verification and validation, program management, risk management, integration, test and evaluation">
-    <title>TaskSpace Momentum LLC — Systems Engineering Consulting</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taskspace Momentum.ai | Where your project gains momentum.</title>
+  <meta name="description" content="Where your project gains momentum. Engineering services and a robotics &amp; automation accelerator, specializing in rapid integration of off-the-shelf robotics for your application: Physical AI, computer vision, RaaS, V&amp;V / HIL, and safety-critical V-model engineering." />
+  <meta property="og:title" content="Taskspace Momentum.ai | Where your project gains momentum." />
+  <meta property="og:description" content="Where your project gains momentum. Engineering services and a robotics &amp; automation accelerator, specializing in rapid integration of off-the-shelf robotics for your application: Physical AI, computer vision, RaaS, V&amp;V / HIL, and safety-critical V-model engineering." />
+  <meta property="og:image" content="assets/logo-icon.png" />
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/logo-icon-64.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
 </head>
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-inner">
-            <a href="#home" class="nav-brand">
-                <span class="brand-mark">TSM</span>
-                <span class="brand-name">TaskSpace Momentum</span>
-            </a>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#services" class="nav-link">Capabilities</a></li>
-                <li><a href="#standards" class="nav-link">Standards</a></li>
-                <li><a href="#focus" class="nav-link">Focus Areas</a></li>
-                <li><a href="#initiatives" class="nav-link">Initiatives</a></li>
-                <li><a href="#contact" class="nav-link nav-cta">Contact Us</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Taskspace Momentum.ai home">
+      <img class="brand-icon" src="assets/logo-icon.png" width="44" height="44" alt="" />
+      <span>Taskspace Momentum<span class="dot-ai">.ai</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="services.html">Services</a>
+      <a href="products.html">Products</a>
+      <a href="index.html#vv">V&amp;V</a>
+      <a href="index.html#safety">Safety-critical</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact" class="nav-cta">Contact</a>
     </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-bg-grid"></div>
-        <div class="container hero-inner">
-            <div class="hero-eyebrow">Systems Engineering Consulting</div>
-            <h1 class="hero-title">
-                Engineering Clarity.<br>
-                <span class="hero-title-accent">Sustained Momentum.</span>
-            </h1>
-            <p class="hero-description">
-                TaskSpace Momentum LLC is a systems engineering consultancy. [PLACEHOLDER: 2-3 sentence description of the business — background, focus, and the value you deliver to clients].
-            </p>
-            <div class="hero-actions">
-                <a href="#services" class="btn btn-primary">Explore Capabilities</a>
-                <a href="#contact" class="btn btn-outline">Request a Consultation</a>
-            </div>
-            <div class="hero-credentials">
-                <span class="credential-item">[STANDARD]</span>
-                <span class="credential-sep">·</span>
-                <span class="credential-item">[STANDARD]</span>
-                <span class="credential-sep">·</span>
-                <span class="credential-item">[STANDARD]</span>
-                <span class="credential-sep">·</span>
-                <span class="credential-item">[STANDARD]</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pedigree Bar -->
-    <div class="pedigree-bar">
-        <div class="container pedigree-inner">
-            <span class="pedigree-label">Career experience includes</span>
-            <div class="pedigree-list">
-                <span>[Company / Program]</span>
-                <span>[Company / Program]</span>
-                <span>[Company / Program]</span>
-                <span>[Company / Program]</span>
-            </div>
-        </div>
+  <div class="hero grid-bg">
+    <div>
+      <span class="hero-badge">Engineering services &middot; Robotics &amp; automation accelerator</span>
+      <h1>Where your project <span class="gradient-text">gains momentum.</span></h1>
+      <p class="sub"><strong>Engineering services and a robotics &amp; automation accelerator</strong>, specializing in rapid integration of off-the-shelf robotics for your application.</p>
+      <ul class="hero-points">
+        <li><strong>Engineering services:</strong> Physical AI, computer vision, robotics &amp; automation, and systems integration.</li>
+        <li><strong>Accelerator:</strong> from use case to a working cell built on commercial off-the-shelf robots.</li>
+        <li><strong>Verification built in:</strong> HIL, lab automation, custom fixtures, and traceable V-model test.</li>
+      </ul>
+      <div class="cta-row">
+        <a class="cta cta-primary" href="#contact">Start a conversation</a>
+        <a class="cta cta-secondary" href="#accelerator">Explore the accelerator</a>
+      </div>
     </div>
+    <div class="hero-media">
+      <div class="media-card hero-video-card">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/poster-physical-ai.jpg" aria-label="Taskspace Momentum logo over a rotating gear and robot-arm visualization">
+          <source src="assets/hero-physical-ai.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </div>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-eyebrow">About Us</div>
-                <h2 class="section-title">[PLACEHOLDER: About Section Headline]</h2>
-            </div>
-            <div class="about-layout">
-                <div class="about-text">
-                    <p>[PLACEHOLDER: Paragraph describing the founder(s)' background, years of experience, industries served, and what differentiates TaskSpace Momentum LLC.]</p>
-                    <p>[PLACEHOLDER: Paragraph describing the systems engineering approach — lifecycle coverage, methodologies (e.g., MBSE, INCOSE processes), and typical engagement types.]</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <div class="stat-number">[#]+</div>
-                        <div class="stat-label">Years of Experience</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">[#]+</div>
-                        <div class="stat-label">Programs Delivered</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">[#]</div>
-                        <div class="stat-label">[Metric Label]</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">[#]</div>
-                        <div class="stat-label">[Metric Label]</div>
-                    </div>
-                </div>
-            </div>
+  <div class="strip">
+    <span>Physical AI</span><span>Computer vision</span><span>Robotics-as-a-Service</span><span>COTS robot integration</span><span>V&amp;V / HIL</span><span>Lab automation</span><span>Custom fixtures</span><span>Safety-critical / V-model</span><span>Systems integration</span>
+  </div>
+
+  <section id="services">
+    <span class="section-tag">Services</span>
+    <h2>Engineering services for the physical world</h2>
+    <p class="lead">Research, development, design, and commercialization of software, computer vision, robotics, and automation, plus the systems integration consulting to make it run in your operation.</p>
+    <div class="grid-3">
+      <div class="card tile"><span class="tile-num">01</span><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div><h3>Physical AI &amp; computer vision</h3><p>Perception, planning, and control software designed and tested against real sensors, real lighting, and real hardware: inspection, localization, tracking, and guidance.</p></div>
+      <div class="card tile"><span class="tile-num">02</span><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h10"/><path d="M8 21v-3"/><circle cx="8" cy="15.5" r="2.5"/><path d="M9.8 13.7 14 8.5"/><circle cx="15.5" cy="7" r="2"/><path d="M17.5 7H21v3.5"/><path d="M21 10.5h-2"/></svg></div><h3>Robotics-as-a-Service</h3><p>Robotic capability delivered as an operable service: scoped to a defined task, integrated on site, then monitored, maintained, and improved under change control.</p></div>
+      <div class="card tile"><span class="tile-num">03</span><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></div><h3>Robotics &amp; automation integration</h3><p>Off-the-shelf arms, grippers, cameras, and controllers selected for the task and integrated into cells and workflows. Vendor-agnostic and built around your process.</p></div>
+      <div class="card tile"><span class="tile-num">04</span><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2z"/></svg></div><h3>Forward-deployed engineering</h3><p>Engineers on your floor, in your lab, or embedded with your team to integrate, debug, and stabilize. On site when it matters, remote when that is enough.</p></div>
+      <div class="card tile"><span class="tile-num">05</span><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M6 12h2l2-4 3 7 2-3h3"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Verification &amp; validation / HIL</h3><p>Hardware-in-the-loop benches with Physical AI, lab automation, custom fixtures, and traceable test plans, so problems surface on the bench instead of in the field.</p></div>
+      <div class="card tile"><span class="tile-num">06</span><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.2 8 9 4.6-.8 8-4.5 8-9V6l-8-3z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Safety-critical V-model development</h3><p>Design, development, documentation, and testing on a V-model lifecycle, with every requirement traced to verification evidence your reviewers can follow.</p></div>
+    </div>
+    <p class="section-foot"><a class="text-link" href="services.html">Full services overview &rarr;</a></p>
+  </section>
+
+  <section id="what-we-do" class="grid-bg">
+    <span class="section-tag">Core capabilities</span>
+    <h2>What We Do</h2>
+    <p class="lead">End-to-end systems engineering across the program lifecycle, applied to robotics, automation, and Physical AI.</p>
+    <div class="grid-3">
+      <div class="card svc-card"><div class="svc-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a4 4 0 0 1 4 4v1h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1v1a4 4 0 0 1-8 0v-1H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1V6a4 4 0 0 1 4-4z"/><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/></svg></div><div><h3>Systems Architecture</h3><p>Architecture and requirements decomposition for robotic and Physical AI systems, partitioning perception, planning, control, and hardware so each part can be built, tested, and replaced on its own.</p></div></div>
+      <div class="card svc-card"><div class="svc-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><div><h3>Requirements Management</h3><p>Requirements gathered from operators, QA, and safety stakeholders, written to be testable, and traced from need to design to verification evidence.</p></div></div>
+      <div class="card svc-card"><div class="svc-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div><div><h3>Verification &amp; Validation</h3><p>V&amp;V planning, test strategy, and acceptance criteria, from unit and integration test through HIL benches and on-site validation.</p></div></div>
+      <div class="card svc-card"><div class="svc-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div><h3>Risk Management</h3><p>Hazard analysis, FMEA, and risk controls tracked across the lifecycle, with each mitigation tied to a requirement and a test.</p></div></div>
+      <div class="card svc-card"><div class="svc-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div><div><h3>Program &amp; Integration Management</h3><p>Technical leadership that keeps vendors, internal teams, and site stakeholders aligned on interfaces, gates, and what &ldquo;done&rdquo; means.</p></div></div>
+      <div class="card svc-card"><div class="svc-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div><div><h3>Software &amp; Hardware Integration</h3><p>Integration across software, robots, sensors, fixtures, and plant systems: interface control, bring-up, and debugging at the system-of-systems boundary.</p></div></div>
+    </div>
+  </section>
+
+  <section id="accelerator" class="accel-wrap">
+    <div class="accel">
+      <span class="accel-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2"/><path d="M9 15 6 12c1.5-5 6-9 13-9 0 7-4 11.5-9 13l-1-1z"/><circle cx="15" cy="9" r="1.6"/></svg> Robotics &amp; Automation Accelerator</span>
+      <h2>The Taskspace Momentum Accelerator</h2>
+      <p class="lead" style="margin-bottom:0">A structured fast track from use case to a working robotic cell. We specialize in rapid integration of commercial off-the-shelf (COTS) robotics for your application, combining proven arms, grippers, and cameras with Physical AI and computer vision, custom fixtures, and built-in verification &amp; validation. You see your task running on real hardware before you commit to scale.</p>
+      <ol class="accel-steps">
+        <li><strong>Use case</strong>Define the task, constraints, safety needs, and what success looks like.</li>
+        <li><strong>COTS selection</strong>Choose the arm, gripper, cameras, and controller for the task. Vendor-agnostic.</li>
+        <li><strong>Integrate</strong>Physical AI / CV perception, motion, and custom fixtures for your parts or labware.</li>
+        <li><strong>Verify</strong>HIL bench and test plan with traceability, so issues show up on the bench.</li>
+        <li><strong>Decide &amp; scale</strong>Hand over the cell, the evidence, and a path forward: in-house, product, or RaaS.</li>
+      </ol>
+      
+      <div class="cta-row">
+        <a class="cta cta-primary" href="#contact">Start an accelerator conversation</a>
+        <a class="cta cta-secondary" href="services.html#engagement">How engagements work</a>
+      </div>
+      <p class="accel-note">Scope and timeline are set per application after an initial conversation.</p>
+    </div>
+  </section>
+
+  <section id="vv">
+    <span class="section-tag">Verification &amp; validation</span>
+    <h2>Verification &amp; validation services</h2>
+    <p class="lead">Prove Physical AI and automation under real hardware constraints before you scale or ship.</p>
+    <div class="grid">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M6 12h2l2-4 3 7 2-3h3"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Hardware-in-the-loop with Physical AI</h3><p>Closed-loop benches that couple perception, planning, and control to real sensors and actuators (or high-fidelity plant models) so timing and integration failures show up early.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6L4.6 18.6A1.6 1.6 0 0 0 6 21h12a1.6 1.6 0 0 0 1.4-2.4L14 9V3"/><path d="M7.5 15h9"/></svg></div><h3>Lab automation</h3><p>Automated test cells, data capture, and repeatable experiment workflows for algorithms, components, and subsystems.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V10h4v11"/><path d="M15 21v-5h4v5"/><path d="M5 10V6h14v4h-4"/><path d="M12 6V3"/></svg></div><h3>Custom fixture development</h3><p>Mechanical and electrical fixtures, mounts, and interfaces tailored to your DUT, cell, or vision setup.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3>Test plans &amp; traceability</h3><p>Pass/fail criteria and regression suites that keep pace as software and models iterate through engineering and commercialization gates.</p></div>
+    </div>
+  </section>
+
+  <section id="safety" class="grid-bg">
+    <span class="section-tag">Safety-critical</span>
+    <h2>Safety-critical systems engineering</h2>
+    <p class="lead">V-model design, development, documentation, and testing for systems where assurance and traceability matter.</p>
+    <div class="grid">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a4 4 0 0 1 4 4v1h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1v1a4 4 0 0 1-8 0v-1H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1V6a4 4 0 0 1 4-4z"/><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/></svg></div><h3>V-model design</h3><p>Requirements decomposition, architecture, and design with clear left-side / right-side verification hooks across the lifecycle.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div><h3>Development</h3><p>Disciplined implementation of software, controls, and integrated subsystems with configuration management.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6z"/><path d="M14 3v6h6"/><path d="M8 13h8M8 17h5"/></svg></div><h3>Documentation</h3><p>Requirements, design, interface, risk/hazard, and verification artifacts ready for review boards and commercialization gates.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.2 8 9 4.6-.8 8-4.5 8-9V6l-8-3z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Testing</h3><p>Unit through system and integration test, linked to HIL and Physical AI V&amp;V when hardware is in the loop.</p></div>
+    </div>
+  </section>
+
+  <section id="approach">
+    <div class="split">
+      <div>
+        <span class="section-tag">Approach</span>
+        <h2>Research &rarr; design &rarr; deploy &rarr; commercialize</h2>
+        <p class="lead">Engagements are built to reduce risk early, prove value in the task space, and leave you with something operable.</p>
+        <ol class="phases">
+          <li><strong>Frame</strong> the mission, constraints, and success metrics, and decide whether to build, buy, integrate, or wait.</li>
+          <li><strong>Research &amp; develop</strong> the hard parts (perception, planning, controls, data, interfaces) with clear kill criteria.</li>
+          <li><strong>Design for operations</strong>: maintainability, safety, and the people who will run it.</li>
+          <li><strong>Deploy forward</strong>: on site when it matters, remote when that is enough.</li>
+          <li><strong>Commercialize &amp; sustain</strong> as a product, a RaaS offering, or an internal capability.</li>
+        </ol>
+      </div>
+      <figure class="media-card diagram-card" style="margin:0"><svg viewBox="0 0 520 300" role="img" aria-label="V-model: requirements, architecture, and detailed design descend to implementation, then rise through unit test, integration test, and system validation, with traceability links across each level">
+  <defs>
+    <linearGradient id="vg" x1="0" x2="1"><stop offset="0" stop-color="#13233f"/><stop offset="1" stop-color="#00b89a"/></linearGradient>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#5a6a80"/></marker>
+  </defs>
+  <g stroke="#5a6a80" stroke-width="1.6" fill="none" marker-end="url(#ah)">
+    <path d="M90 60 L120 82"/><path d="M130 125 L160 147"/><path d="M180 190 L222 212"/>
+    <path d="M298 212 L340 192"/><path d="M390 147 L420 127"/><path d="M430 82 L460 62"/>
+  </g>
+  <g stroke="#00b89a" stroke-width="1.5" stroke-dasharray="5 5">
+    <line x1="160" y1="40" x2="360" y2="40"/><line x1="200" y1="105" x2="320" y2="105"/><line x1="240" y1="170" x2="280" y2="170"/>
+  </g>
+  <g font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+    <rect x="20" y="20" width="140" height="40" rx="8" fill="#13233f"/><text x="90" y="45" fill="#fff">Requirements</text>
+    <rect x="60" y="85" width="140" height="40" rx="8" fill="#13233f"/><text x="130" y="110" fill="#fff">Architecture</text>
+    <rect x="100" y="150" width="140" height="40" rx="8" fill="#13233f"/><text x="170" y="175" fill="#fff">Detailed design</text>
+    <rect x="190" y="215" width="140" height="40" rx="8" fill="url(#vg)"/><text x="260" y="240" fill="#fff">Implementation</text>
+    <rect x="280" y="150" width="140" height="40" rx="8" fill="#fff" stroke="#00b89a" stroke-width="2"/><text x="350" y="175" fill="#13233f">Unit test</text>
+    <rect x="320" y="85" width="140" height="40" rx="8" fill="#fff" stroke="#00b89a" stroke-width="2"/><text x="390" y="110" fill="#13233f">Integration / HIL</text>
+    <rect x="360" y="20" width="140" height="40" rx="8" fill="#fff" stroke="#00b89a" stroke-width="2"/><text x="430" y="45" fill="#13233f">System validation</text>
+  </g>
+  <g font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#00806b" text-anchor="middle">
+    <text x="260" y="34">traceability</text><text x="260" y="99">traceability</text>
+  </g>
+  <text x="260" y="285" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="#5a6a80" text-anchor="middle">Design and decomposition (left) &#8226; Verification and validation (right)</text>
+</svg><figcaption>Every requirement on the left maps to verification evidence on the right.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="about" class="grid-bg">
+    <span class="section-tag">About</span>
+    <h2>Built for the physical world</h2>
+    <p class="lead">Taskspace Momentum LLC focuses on Physical AI and Robotics-as-a-Service. We research, develop, design, and commercialize software, computer vision, robotics, and automation technologies, provide technical and systems integration consulting, and run a robotics &amp; automation accelerator for rapid integration of off-the-shelf robotics.</p>
+    <p class="lead">In robotics, the <em>task space</em> is where the work actually happens: the end-effector frame, the cell, the aisle, the site. Our name points at that reality: momentum in the places automation has to earn its keep.</p>
+    <div class="grid">
+      <div class="card"><h3>Build</h3><p>Software, vision, and automation components you can ship and support.</p></div>
+      <div class="card"><h3>Integrate</h3><p>Connect your stack, robots, and data paths into one operable system.</p></div>
+      <div class="card"><h3>Accelerate</h3><p>Move from use case to a working COTS robot cell with verification built in.</p></div>
+      <div class="card"><h3>Advise</h3><p>Architecture, V&amp;V strategy, and commercialization planning when you need a clear path.</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact grid-bg">
+    <div class="contact-head">
+      <span class="section-tag">Contact</span>
+      <h2>Start a Conversation</h2>
+      <p>Describe your engineering challenge and we'll respond promptly</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-list">
+        <div class="contact-item"><div class="contact-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><span class="contact-label">Email</span><a class="contact-value" href="mailto:PLACEHOLDER@taskspacemomentum.ai">[PLACEHOLDER@taskspacemomentum.ai]</a></div></div>
+        <div class="contact-item"><div class="contact-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.68 13.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.59 2.82h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.4a16 16 0 0 0 5.68 5.68l1.65-1.65a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><span class="contact-label">Phone</span><span class="contact-value">[PLACEHOLDER phone number]</span></div></div>
+        <div class="contact-item"><div class="contact-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><span class="contact-label">Location</span><span class="contact-value">[PLACEHOLDER address / city, state]</span></div></div>
+        <div class="contact-item"><div class="contact-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div><div><span class="contact-label">LinkedIn</span><span class="contact-value">[PLACEHOLDER LinkedIn URL]</span></div></div>
+      </div>
+      <!-- Static site: this form opens the visitor's mail client via mailto:.
+           A form backend is needed before launch; no third-party form service is wired in. -->
+      <form class="form-card" action="mailto:PLACEHOLDER@taskspacemomentum.ai" method="post" enctype="text/plain">
+        <div class="field-row">
+          <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your full name" autocomplete="name" required /></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="your@email.com" autocomplete="email" required /></div>
         </div>
-    </section>
-
-    <!-- Services / Core Capabilities -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-eyebrow">Core Capabilities</div>
-                <h2 class="section-title">What We Do</h2>
-                <p class="section-subtitle">End-to-end systems engineering across the program lifecycle</p>
-            </div>
-            <div class="services-grid">
-
-                <div class="service-card">
-                    <div class="service-icon-wrap">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4v1h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1v1a4 4 0 0 1-8 0v-1H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1V6a4 4 0 0 1 4-4z"/><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/></svg>
-                    </div>
-                    <div class="service-body">
-                        <h3>Systems Architecture</h3>
-                        <p>[PLACEHOLDER: Description of systems architecture and requirements decomposition capabilities.]</p>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon-wrap">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                    </div>
-                    <div class="service-body">
-                        <h3>Requirements Management</h3>
-                        <p>[PLACEHOLDER: Description of requirements elicitation, traceability, and management practices.]</p>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon-wrap">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-                    </div>
-                    <div class="service-body">
-                        <h3>Verification &amp; Validation</h3>
-                        <p>[PLACEHOLDER: Description of V&amp;V planning, test strategy, and acceptance criteria development.]</p>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon-wrap">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                    </div>
-                    <div class="service-body">
-                        <h3>Risk Management</h3>
-                        <p>[PLACEHOLDER: Description of risk identification, assessment, and mitigation planning across program lifecycle.]</p>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon-wrap">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-                    </div>
-                    <div class="service-body">
-                        <h3>Program &amp; Integration Management</h3>
-                        <p>[PLACEHOLDER: Description of program management, technical leadership, and cross-team integration.]</p>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon-wrap">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                    </div>
-                    <div class="service-body">
-                        <h3>Software &amp; Hardware Integration</h3>
-                        <p>[PLACEHOLDER: Description of integration engineering across software, hardware, and system-of-systems boundaries.]</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Standards & Frameworks Section -->
-    <section id="standards" class="regulatory">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-eyebrow">Standards &amp; Frameworks</div>
-                <h2 class="section-title">Systems Engineering Standards</h2>
-                <p class="section-subtitle">Rigorous process discipline from concept through delivery</p>
-            </div>
-            <div class="regulatory-grid">
-
-                <div class="reg-card">
-                    <div class="reg-standard">[STANDARD]</div>
-                    <h3>[PLACEHOLDER: Standard Name]</h3>
-                    <p>[PLACEHOLDER: Description of how this standard/framework is applied — e.g., ISO/IEC/IEEE 15288, INCOSE Systems Engineering Handbook, CMMI.]</p>
-                </div>
-
-                <div class="reg-card">
-                    <div class="reg-standard">[STANDARD]</div>
-                    <h3>[PLACEHOLDER: Standard Name]</h3>
-                    <p>[PLACEHOLDER: Description.]</p>
-                </div>
-
-                <div class="reg-card">
-                    <div class="reg-standard">[STANDARD]</div>
-                    <h3>[PLACEHOLDER: Standard Name]</h3>
-                    <p>[PLACEHOLDER: Description.]</p>
-                </div>
-
-                <div class="reg-card reg-card-highlight">
-                    <div class="reg-standard">[STANDARD]</div>
-                    <h3>[PLACEHOLDER: Featured Standard Name]</h3>
-                    <p>[PLACEHOLDER: Description of a featured or emerging framework relevant to your practice.]</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Focus Areas -->
-    <section id="focus" class="technologies">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-eyebrow">Focus Areas</div>
-                <h2 class="section-title">Breadth of Platform Expertise</h2>
-                <p class="section-subtitle">Domains, tools, and industries served</p>
-            </div>
-            <div class="tech-grid">
-                <div class="tech-category">
-                    <h3>
-                        <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
-                        Tools &amp; Methods
-                    </h3>
-                    <ul>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                    </ul>
-                </div>
-                <div class="tech-category">
-                    <h3>
-                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm0 6a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zm11-1a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/></svg>
-                        Systems &amp; Domains
-                    </h3>
-                    <ul>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                    </ul>
-                </div>
-                <div class="tech-category">
-                    <h3>
-                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zm8 0a3 3 0 11-6 0 3 3 0 016 0zm-4.07 11c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"/></svg>
-                        Industries Served
-                    </h3>
-                    <ul>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                    </ul>
-                </div>
-                <div class="tech-category">
-                    <h3>
-                        <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/></svg>
-                        Equipment &amp; Platforms
-                    </h3>
-                    <ul>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                        <li>[PLACEHOLDER]</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Initiatives Section -->
-    <section id="initiatives" class="research">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-eyebrow" style="color: rgba(255,255,255,0.55)">Initiatives &amp; Innovation</div>
-                <h2 class="section-title" style="color: #fff">Applied Engineering Initiatives</h2>
-                <p class="section-subtitle" style="color: rgba(255,255,255,0.65)">[PLACEHOLDER: subtitle describing your R&amp;D or applied-engineering focus]</p>
-            </div>
-
-            <!-- Featured Initiative -->
-            <div class="featured-research">
-                <div class="featured-badge">Featured Initiative</div>
-                <h3>[PLACEHOLDER: Initiative Title]</h3>
-                <p class="featured-intro">[PLACEHOLDER: 2-3 sentence summary of a flagship project, case study, or initiative worth highlighting.]</p>
-
-                <div class="achievement-grid">
-                    <div class="achievement-item">
-                        <div class="achievement-label">[Highlight]</div>
-                        <p>[PLACEHOLDER: short description]</p>
-                    </div>
-                    <div class="achievement-item">
-                        <div class="achievement-label">[Highlight]</div>
-                        <p>[PLACEHOLDER: short description]</p>
-                    </div>
-                    <div class="achievement-item">
-                        <div class="achievement-label">[Highlight]</div>
-                        <p>[PLACEHOLDER: short description]</p>
-                    </div>
-                    <div class="achievement-item">
-                        <div class="achievement-label">[Highlight]</div>
-                        <p>[PLACEHOLDER: short description]</p>
-                    </div>
-                </div>
-
-                <div class="capabilities-list">
-                    <h4>Key Technical Achievements</h4>
-                    <ul>
-                        <li><strong>[PLACEHOLDER]</strong> — [description]</li>
-                        <li><strong>[PLACEHOLDER]</strong> — [description]</li>
-                        <li><strong>[PLACEHOLDER]</strong> — [description]</li>
-                    </ul>
-                </div>
-
-                <div class="research-impact">
-                    <strong>Impact:</strong> [PLACEHOLDER: describe the outcome/impact of this initiative.]
-                </div>
-            </div>
-
-            <!-- Other Initiative Areas -->
-            <div class="research-grid">
-                <div class="research-card">
-                    <div class="research-card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-                    </div>
-                    <h3>[PLACEHOLDER Title]</h3>
-                    <p>[PLACEHOLDER description]</p>
-                </div>
-                <div class="research-card">
-                    <div class="research-card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                    </div>
-                    <h3>[PLACEHOLDER Title]</h3>
-                    <p>[PLACEHOLDER description]</p>
-                </div>
-                <div class="research-card">
-                    <div class="research-card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                    </div>
-                    <h3>[PLACEHOLDER Title]</h3>
-                    <p>[PLACEHOLDER description]</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-eyebrow">Contact</div>
-                <h2 class="section-title">Start a Conversation</h2>
-                <p class="section-subtitle">Describe your engineering challenge and we'll respond promptly</p>
-            </div>
-            <div class="contact-layout">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon-wrap">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        </div>
-                        <div>
-                            <div class="contact-label">Email</div>
-                            <a href="mailto:PLACEHOLDER@taskspacemomentum.ai" class="contact-value">[PLACEHOLDER@taskspacemomentum.ai]</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon-wrap">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.68 13.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.59 2.82h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.4a16 16 0 0 0 5.68 5.68l1.65-1.65a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        </div>
-                        <div>
-                            <div class="contact-label">Phone</div>
-                            <a href="tel:+10000000000" class="contact-value">[PLACEHOLDER phone number]</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon-wrap">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                        </div>
-                        <div>
-                            <div class="contact-label">Location</div>
-                            <div class="contact-value">[PLACEHOLDER address / city, state]</div>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon-wrap">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-                        </div>
-                        <div>
-                            <div class="contact-label">LinkedIn</div>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="contact-value">[PLACEHOLDER LinkedIn URL]</a>
-                        </div>
-                    </div>
-                </div>
-
-                <form class="contact-form" id="contactForm">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="contactName">Name</label>
-                            <input type="text" id="contactName" name="name" placeholder="Your full name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="contactEmail">Email</label>
-                            <input type="email" id="contactEmail" name="email" placeholder="your@email.com" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="contactSubject">Subject</label>
-                        <input type="text" id="contactSubject" name="subject" placeholder="Engineering challenge or inquiry type" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="contactMessage">Message</label>
-                        <textarea id="contactMessage" name="message" placeholder="Describe your project, challenge, or question..." rows="6" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-inner">
-            <div class="footer-brand">
-                <span class="brand-mark">TSM</span>
-                <span class="brand-name">TaskSpace Momentum LLC</span>
-            </div>
-            <p class="footer-copy">&copy; 2026 TaskSpace Momentum LLC. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="mailto:PLACEHOLDER@taskspacemomentum.ai">Email</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Sticky nav shadow on scroll
-        const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            navbar.classList.toggle('scrolled', window.scrollY > 20);
-        });
-
-        // Mobile nav toggle
-        const navToggle = document.getElementById('navToggle');
-        const navMenu = document.getElementById('navMenu');
-        navToggle.addEventListener('click', () => {
-            const open = navMenu.classList.toggle('open');
-            navToggle.classList.toggle('open', open);
-            navToggle.setAttribute('aria-expanded', open);
-        });
-
-        // Close mobile nav on link click
-        navMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                navMenu.classList.remove('open');
-                navToggle.classList.remove('open');
-                navToggle.setAttribute('aria-expanded', 'false');
-            });
-        });
-
-        // Smooth scrolling with navbar offset
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    const offset = 72;
-                    const top = target.getBoundingClientRect().top + window.scrollY - offset;
-                    window.scrollTo({ top, behavior: 'smooth' });
-                }
-            });
-        });
-
-        // Contact form feedback
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const btn = this.querySelector('button[type="submit"]');
-            btn.textContent = 'Message Sent — Thank You!';
-            btn.disabled = true;
-            btn.style.background = '#059669';
-            setTimeout(() => {
-                btn.textContent = 'Send Message';
-                btn.disabled = false;
-                btn.style.background = '';
-                this.reset();
-            }, 4000);
-        });
-
-        // Scroll-reveal for cards
-        const revealObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                    revealObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
-
-        document.querySelectorAll('.service-card, .reg-card, .tech-category, .research-card, .stat-card').forEach(el => {
-            el.classList.add('reveal');
-            revealObserver.observe(el);
-        });
-    </script>
+        <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="Engineering challenge or inquiry type" required /></div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Describe your project, challenge, or question..." required></textarea></div>
+        <button class="btn-submit" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="index.html"><img src="assets/logo-icon-64.png" width="36" height="36" alt="" /><span>Taskspace Momentum<span class="dot-ai">.ai</span></span></a>
+        <p class="footer-tagline">Where your project gains momentum.</p>
+        <p style="margin:0">Engineering services and a robotics &amp; automation accelerator: Physical AI, computer vision, Robotics-as-a-Service, V&amp;V, and safety-critical systems engineering.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="index.html#accelerator">Accelerator</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#offerings">Physical AI &amp; computer vision</a></li>
+          <li><a href="services.html#offerings">Robotics-as-a-Service</a></li>
+          <li><a href="services.html#vv">Verification &amp; validation / HIL</a></li>
+          <li><a href="services.html#safety">Safety-critical V-model</a></li>
+          <li><a href="services.html#engagement">Engagement models</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Taskspace Momentum LLC. All rights reserved.</span>
+      <span>Privacy policy and terms: in preparation.</span>
+    </div>
+  </footer>
 </body>
 </html>
