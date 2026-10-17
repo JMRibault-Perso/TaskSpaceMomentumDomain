@@ -530,3 +530,17 @@ a.contact-value:hover { color: var(--teal); }
 .connect-foot a { color: var(--muted); }
 @media (min-width: 700px) { .connect-card { padding: 2.5rem 2.25rem 1.75rem; } }
 .connect-form input, .connect-form textarea { font-size: 16px; } /* prevents iOS focus zoom */
+
+/* ---------- FDE Accelerator tracks + tools (2026-10-17) ---------- */
+.fde-tracks { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 960px) { .fde-tracks { grid-template-columns: 1fr; } }
+.fde-track { padding: 1.25rem 1.3rem 1.3rem; border-radius: 14px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.18); border-top: 3px solid var(--teal-bright); }
+.fde-ico svg { width: 40px; height: 40px; padding: 8px; border-radius: 10px; background: rgba(26,212,176,0.16); stroke: var(--teal-bright); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.fde-track h3 { color: #fff; font-size: 1.2rem; margin: 0.7rem 0 0.35rem; }
+.fde-track p { color: rgba(255,255,255,0.8); font-size: 0.93rem; margin: 0; }
+.fde-track ul { margin: 0.7rem 0 0.8rem; padding-left: 1.1rem; color: rgba(255,255,255,0.75); font-size: 0.88rem; }
+.fde-track ul li { margin: 0.2rem 0; }
+.fde-track .af-link { font-size: 0.9rem; text-decoration: none; }
+.tools-loop { margin-top: 1.25rem; padding: 1.3rem 1.4rem; border: 1px solid rgba(0,184,154,0.35); }
+.tools-loop-h { color: var(--teal) !important; margin: 0 !important; }
+#tools .dt-card ul { margin-top: 0.8rem; }
