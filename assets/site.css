@@ -578,3 +578,14 @@ a.contact-value:hover { color: var(--teal); }
   html { scroll-padding-top: 150px; }
   .theme-grid .theme, .anchor-alias { scroll-margin-top: 150px; }
 }
+/* rework 2026-11-16: three sections */
+.theme, #ar-vr { scroll-margin-top: 96px; }
+@media (max-width: 960px) { .theme, #ar-vr { scroll-margin-top: 130px; } }
+@media (max-width: 600px) { .theme, #ar-vr { scroll-margin-top: 150px; } }
+.services-short { background: #fff; border-block: 1px solid var(--line); }
+.services-short + .themes { padding-top: 3.5rem; }
+.ip-line { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem; }
+.ip-line .status { margin: 0; text-transform: none; letter-spacing: 0.02em; font-size: 0.76rem; }
+.gov-line { margin: 1rem 0 0; color: var(--muted); font-size: 0.98rem; max-width: 44rem; }
+.gov-tag { display: inline-block; margin-right: 0.5rem; padding: 0.22rem 0.6rem; border-radius: 999px; background: var(--teal-soft); color: #00806b; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+.how { background: var(--bg-soft); }
